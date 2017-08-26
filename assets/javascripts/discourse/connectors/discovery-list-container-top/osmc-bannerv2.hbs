@@ -1,0 +1,26 @@
+{{#if siteSettings.osmcbanner_enabled}}
+<style>
+.osmc_banner {
+  position: relative;
+}
+
+.osmc_banner_text {  
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 2vw;
+  }
+</style>
+<a href="{{siteSettings.osmcbanner_link}}" target="_blank">
+<div class="osmc_banner">
+  <img style="width: 100%;" src="{{siteSettings.osmcbanner_type}}">
+  <div class="osmc_banner_text">{{siteSettings.osmcbanner_text}}</div>
+</div>
+</a>
+{{/if}}

@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    osmcbanner_enabled: "Enable OSMC forum banner"
+    osmcbanner_text: "Text for the banner"
+    osmcbanner_link: "The link the banner should go to"

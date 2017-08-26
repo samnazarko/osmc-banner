@@ -1,0 +1,14 @@
+plugins:
+  osmcbanner_enabled:
+    default: true
+    client: true
+  osmcbanner_text:
+    default: ''
+    client: true
+  osmcbanner_link:
+    default: ''
+    client: true
+  osmcbanner_type:
+    default: ''
+    client: true
+    enum: 'OSMCBanner::OSMCBannerTypeSetting'
