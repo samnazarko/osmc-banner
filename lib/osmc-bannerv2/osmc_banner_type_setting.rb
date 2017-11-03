@@ -6,9 +6,9 @@ module OSMCBanner
 
     def self.values
       @values ||= [
-	{ name: 'Announcement: Wave Peak', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/6/6bcf83cbab9ab9ed98da1b90728615043337ee43.jpg'},
+	{ name: 'Announcement: Wave Peak', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/c/c1238798bd2b79dfaec44749d0610d59d0867db7.jpg'},
 	{ name: 'Announcement: Mountain', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/9/96b93900e4be827d1d8500ed2fb9ed8a15f92298.jpg'},
-	{ name: 'Announcement: Wave Burst', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/c/c1238798bd2b79dfaec44749d0610d59d0867db7.jpg'},
+	{ name: 'Announcement: Wave Burst', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/6/6bcf83cbab9ab9ed98da1b90728615043337ee43.jpg'},
 	{ name: 'OS Update: Wave Peak', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/4/47f62287a940e9039f7750d2c0b1cc144b936f32.jpg'},
 	{ name: 'OS Update: Mountain', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/f/fbc97e46d4ef27d2b002d24c16934a487af93b85.jpg'},
 	{ name: 'OS Update: Wave Burst', value: 'https://discourse-cdn.osmc.tv/uploads/default/original/2X/b/b2380cafc0af5cd78dcb051baf20750fb6e0392e.jpg'},
@@ -23,5 +23,3 @@ module OSMCBanner
     end
   end
 end
-
-
